@@ -1,0 +1,13 @@
+<? xml version = 1.0 ?>
+
+<bookstore>
+	<book  id= "101">
+	<!-- multiple attribues -->
+		<category> CHILDREN </category>
+		<title lang = "en"> Harry Potter </title>
+		<author>  J K Rowling  </author>
+		<year> 2008 </year>
+		<price> 200.00 </price>
+		<salary> Salary is &gt; zero.. </salary>
+	</book>
+</bookstore>
