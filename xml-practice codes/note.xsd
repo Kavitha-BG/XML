@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://ww.w3.org/2001/XMLScema"
+targetNamespace="http://www.xml.com"
+xmlns="http://www.xml.com"
+elementFormDefault="qualified">
+
+<xs:element name="note">
+
+<xs:complexType>
+
+<xs:attribute body="lang" type="xs:string"  use="optional">
+<!-- default="Hindi"
+fixed:"Hindi"
+  use="required" -->
+  <xs:sequence>
+    <xs:element name="to" type="xs:string"/>
+    <xs:element name="from" type="xs:string"/>
+    <xs:element name="heading" type="xs:string"/>
+    <xs:element name="body" type="xs:string"/>
+  </xs:sequence>
+</xs:complexType>
+
+</xs:element>

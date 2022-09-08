@@ -1,13 +1,7 @@
-<? xml version = 1.0 ?>
-
+<?xml version="1.0"?>
 <note>
-
-	<to> John </to>
-	
-	<from> Wick </from>
-	
-	<heading> Meeting </heading>
-	
+	<to> John </to>	
+	<from> Wick </from>	
+	<heading> Meeting </heading>	
 	<body> This is a meeting reminder </body>
-
 </note>

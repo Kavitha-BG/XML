@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!DOCTYPE note SYSTEM "note.dtd">
+<note xmlns="http://www.xml.com"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance
+xsi-schemaLocation="http://www.xml.com note.xsd">
+  <date>2015-09-01</date>
+  <hour>08:30</hour>
+  <to>Tove</to>
+  <from>Jani</from>
+  <body>Don't forget me this weekend!</body>
+</note>

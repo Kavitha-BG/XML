@@ -1,0 +1,5 @@
+<!ELEMENT root (date,hour,to,from)>
+<!ELEMENT date (#PCDATA)>
+<!ELEMENT hour (#PCDATA)>
+<!ELEMENT to (#PCDATA)>
+<!ELEMENT from (#PCDATA)>

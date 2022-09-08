@@ -1,21 +1,14 @@
-<? xml version = 1.0 ?>
-
+<?xml version="1.0"?>
 <!DOCTYPE note [
-	<!ELEMENT note(to,from,heading,body)>
-	<!ELEMENT to(#PCDATA)>
-	<!ELEMENT from(#PCDATA)>
-	<!ELEMENT heading(#PCDATA)>
-	<!ELEMENT body(#PCDATA)>
+	<!ELEMENT note (to,from,heading,body)>
+	<!ELEMENT to (#PCDATA)>
+	<!ELEMENT from (#PCDATA)>
+	<!ELEMENT heading (#PCDATA)>
+	<!ELEMENT body (#PCDATA)>
 ]>
-
 <note>
-
-	<to> John </to>
-	
+	<to> John </to>	
 	<from> Wick </from>
-	
-	<heading> Meeting </heading>
-	
+	<heading> Meeting </heading>	
 	<body> This is a meeting reminder </body>
-
 </note>
